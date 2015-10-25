@@ -5,9 +5,10 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    background-color: #1b6d85;
 }
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
@@ -15,4 +16,15 @@ body {
     background-color: #f5f5f5;
     text-align: center;
     vertical-align: bottom;
+}
+
+.image {
+    display: block;
+    margin: 60px auto;
+    width: 800px;
+}
+
+.jumbotron {
+    display: block;
+    margin: 60px;
 }
