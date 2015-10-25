@@ -23,8 +23,11 @@ body {
     margin: 60px auto;
     width: 800px;
 }
-
 .jumbotron {
     display: block;
     margin: 60px;
+}
+
+#NameChanger {
+    margin: 12px 10px;
 }
