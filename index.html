@@ -9,7 +9,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<div>
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -65,12 +65,23 @@
 
 <div class="col-md-2 asd"></div>
 <div class="col-md-8 qwe">
+    <div class="row">
+        <input type="text" class="form-control noteName" placeholder="Заголовок зметки" aria-describedby="basic-addon1">
+        <div class="input-group newNote">
+        <input type="text" class="form-control" placeholder="Новая заметка" aria-describedby="basic-addon1">
+        <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Создать</button>
+      </span>
+        </div>
+    </div>
+    <div class="row">
     <ul class="container-fluid">
-        <li class="list-group-item">Заметка 1</li>
+        <li class="list-group-item">1</li>
         <li class="list-group-item">Заметка 2</li>
         <li class="list-group-item">Заметка 3</li>
         <li class="list-group-item">Заметка 4</li>
     </ul>
+</div>
 </div>
 <div class="col-md-2 asd"></div>
 <footer class="footer">
