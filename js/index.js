@@ -15,4 +15,3 @@ if (localStorage.getItem('name')) {
 }
 
 button.onclick = setName;
-
